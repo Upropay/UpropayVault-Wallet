@@ -12,7 +12,7 @@
 #   ./fix_mac_permission.sh
 # ==============================================================================
 
-APP_NAME="UV Vault"
+APP_NAME="ColdVault"
 APP_PATH="/Applications/${APP_NAME}.app"
 
 # Check if running with sudo

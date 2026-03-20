@@ -17,7 +17,7 @@
 #   curl -fsSL https://raw.githubusercontent.com/Upropay/UpropayVault-Wallet/main/scripts/install_mac.sh | sudo bash
 # ==============================================================================
 
-APP_NAME="UV Vault"
+APP_NAME="ColdVault"
 VERSION="2.0.7"
 REPO="Upropay/UpropayVault-Wallet"
 INSTALL_PATH="/Applications/${APP_NAME}.app"

@@ -20,8 +20,8 @@ UV Vault supports multiple desktop operating systems, including Windows, macOS, 
 ## 🍎 macOS
 1. Download the latest `.dmg` image file.  
    (下载最新的 `.dmg` 镜像文件。)
-2. Open the `.dmg` file and drag the `UV Vault` icon to the `Applications` folder.  
-   (打开 `.dmg` 文件并将 `UV Vault` 图标拖动到 `Applications` 文件夹。)
+2. Open the `.dmg` file and drag the `ColdVault` icon to the `Applications` folder.  
+   (打开 `.dmg` 文件并将 `ColdVault` 图标拖动到 `Applications` 文件夹。)
 3. If you encounter issues like "App is damaged" or "Unverified Developer", please follow these steps:  
    (如果您遇到“App 已损坏”或“开发者无法验证”等问题，请按照以下步骤修复：)
     - **Method A (One-liner Auto-Install - Recommended) / 一键自动安装 (推荐)**:
@@ -36,6 +36,11 @@ UV Vault supports multiple desktop operating systems, including Windows, macOS, 
       ```bash
       curl -fsSL https://raw.githubusercontent.com/Upropay/UpropayVault-Wallet/main/scripts/fix_mac_permission.sh | sudo bash
       ```
+    - **Method C (Manual Settings) / 手动设置**:
+      1. Go to `System Settings > Privacy & Security`, and click "Open Anyway".  
+         (前往 `系统设置 > 隐私与安全`，点击“仍要打开”。)
+      2. Or run in Terminal: `sudo xattr -rd com.apple.quarantine /Applications/ColdVault.app`  
+         (或者在终端运行：`sudo xattr -rd com.apple.quarantine /Applications/ColdVault.app`)
 
 ---
 
